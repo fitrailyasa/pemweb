@@ -1,0 +1,117 @@
+:root {
+    --first-color: #dc143c;
+    --second-color: #eaeaea;
+    --third-color: #101010;
+    --fourth-color: maroon;
+}
+.lightmode {
+    --first-color: #dc143c;
+    --second-color: #101010;
+    --third-color: #ffffff;
+    --fourth-color: rgb(232, 52, 82);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    background-color: var(--third-color);
+}
+
+table {
+    width: 700px;
+    border: none;
+    background-color: var(--third-color);
+    color: var(--second-color);
+    border-radius: 10px;
+}
+
+nav {
+    border: none;
+    background-color: var(--first-color);
+    color: var(--third-color);
+    border-radius: 10px;
+}
+
+#icon {
+    width: 50px;
+}
+
+form {
+    align-content: center;
+    width: 300px;
+    background-color: var(--first-color);
+    border-radius: 20px;
+    color: var(--third-color);
+}
+
+#profile {
+    width: 100px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+    color: var(--third-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--third-color);
+}
+
+input {
+    border-radius: 10px;
+}
+
+iframe {
+    width: 420px;
+    height: 230px;
+    background-color: var(--first-color);
+    border-radius: 10px;
+    color: var(--third-color);
+}
+
+button {
+    border: none;
+    background-color: var(--second-color);
+    color: var(--third-color);
+    border-radius: 10px;
+}
+
+@media (max-width: 720px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    body {
+        background-color: var(--third-color);
+    }  
+    
+    iframe {
+        width: 210px;
+        height: 115px;
+        background-color: var(--first-color);
+        border-radius: 10px;
+        color: var(--third-color);
+    }
+
+    #profile {
+        width: 70px;
+        background-color: var(--first-color);
+        border-radius: 50%;
+        color: var(--third-color);
+    }
+
+    table {
+        width: 100px;
+        border: none;
+        background-color: var(--third-color);
+        color: var(--third-color);
+        border-radius: 10px;
+    }
+}
