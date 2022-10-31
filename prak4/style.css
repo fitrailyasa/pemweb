@@ -111,7 +111,7 @@ button {
         width: 100px;
         border: none;
         background-color: var(--third-color);
-        color: var(--third-color);
+        color: var(--second-color);
         border-radius: 10px;
     }
 }
